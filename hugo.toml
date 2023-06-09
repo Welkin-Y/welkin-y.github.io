@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
+baseURL = "https://welkin-y.github.io/"
 title = "BitOcean"
 languageCode = "zh-CN"
 hasCJKLanguage = true
