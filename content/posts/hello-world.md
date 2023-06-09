@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 date: 2023-06-06T05:40:21-04:00
-draft: true
+draft: false
 tags: ["hugo", "blogging"]
 description: '始于拙劣模仿'
 ---

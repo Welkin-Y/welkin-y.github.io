@@ -1,7 +1,7 @@
 ---
 title: "Rename Linux Username"
 date: 2023-06-07T22:23:00-04:00
-draft: true
+draft: false
 tags: ["linux"]
 ---
 
