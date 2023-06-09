@@ -243,7 +243,7 @@ uglyURLs = false
     enableHeader = true
 
     # 是否自动隐藏
-    enableHeaderAutoHide = true
+    enableHeaderAutoHide = false
     # 说明：仅对弹性布局的顶栏有效
 
     # 是否在首页显示
@@ -986,7 +986,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 24
+    fontSize = 20
 
     ######################################
     ## 制表符的宽度
