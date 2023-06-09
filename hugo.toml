@@ -104,7 +104,7 @@ uglyURLs = false
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = ""
+    website = "https://welkin-y.github.io/"
     # 推特
     twitter = "welkin"
 
@@ -225,10 +225,10 @@ uglyURLs = false
     [[menu.main]]
         weight = 7
         identifier = "lang-switcher"
-    [[menu.main]]
-         weight = 8
-         identifier = "search"
-         post = "search"
+    # [[menu.main]]
+    #     weight = 8
+    #     identifier = "search"
+    #     post = "search"
 
 
 
@@ -278,7 +278,7 @@ uglyURLs = false
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
     # 体请到底部的字体部分配置。单位：em。
-    siteBrandFontSize = 1
+    siteBrandFontSize = 2
     siteBrandFontColor = "var(--color-contrast-high)"
 
 
@@ -286,11 +286,11 @@ uglyURLs = false
     # 菜单栏
 
     # 是否开启
-    enableMenu = true
+    enableMenu = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否在首页显示
-    displayMenuInHome = true
+    displayMenuInHome = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
@@ -331,11 +331,6 @@ uglyURLs = false
     homeDescription = ""
     homeKeywords = ""
     homeLinksDelimiter = ""
-
-    ## 「文章摘要」
-    enableHideInHomepage = false
-    # 说明：激活 `hideInHomepage` front matter
-    #      的支持（性能原因默认关闭）
 
 
     ######################################
@@ -436,15 +431,15 @@ uglyURLs = false
     # 说明：left（左边）或 right（右边）
 
     # 是否按月份分隔列表
-    groupByMonth = true
+    groupByMonth = false
 
     # 是否开启十二生肖
     chineseZodiac = true
 
     # 是否翻译年份（仅对年份标题有效）
-    i18nYear = true
+    i18nYear = false
     # 是否翻译月份（仅对月份标题有效）
-    i18nMonth = true
+    i18nMonth = false
 
 
     ######################################
@@ -561,7 +556,7 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableServiceWorker = false
+    enableServiceWorker = true
 
 
     ######################################
@@ -766,12 +761,12 @@ uglyURLs = false
     # 文章元信息
 
     # 是否开启（全局设置）
-    enablePostMeta = true
+    enablePostMeta = false
     # 说明：文章的 Front Matter 中的 `meta`
     #      的优先级高于此处
 
     # 是否在首页开启
-    enablePostMetaInHome = true
+    enablePostMetaInHome = false
     # 说明：仅对「文章摘要」和「普通页面」
     #      首页布局有效
 
@@ -991,7 +986,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 16
+    fontSize = 24
 
     ######################################
     ## 制表符的宽度
@@ -1079,7 +1074,7 @@ uglyURLs = false
     enablePostCopyright = true
 
     # 是否显示（全局设置）
-    displayPostCopyright = true
+    displayPostCopyright = false
     # 说明：文章的 Front Matter 中的 `displayCopyright`
     #      的优先级高于此处
 
@@ -1091,7 +1086,7 @@ uglyURLs = false
     enablePostUpdatedBadge = true
 
     # 是否显示（全局设置）
-    displayUpdatedBadge = true
+    displayUpdatedBadge = false
     # 说明：文章的 Front Matter 中的 `badge`
     #      的优先级高于此处
 
@@ -1171,10 +1166,10 @@ uglyURLs = false
     # 相关文章
 
     # 是否开启
-    enableRelatedPosts = true
+    enableRelatedPosts = false
 
     # 是否显示（全局设置）
-    displayRelatedPosts = true
+    displayRelatedPosts = false
     # 说明：文章的 Front Matter 中的 `related`
     #      的优先级高于此处
 
@@ -1333,7 +1328,7 @@ uglyURLs = false
     # 说明：仅对 MemE 生成的 CSS 和 JS 有效
 
     # 是否开启文件指纹
-    enableFingerprint = true
+    enableFingerprint = false
 
     # 是否开启子资源完整性验证
     enableSRI = false
