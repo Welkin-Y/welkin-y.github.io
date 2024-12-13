@@ -29,7 +29,7 @@ add the following lines:
 Because I am a traditional person used to vim command line at the bottom.  
 Sadly this config will be overwritten after updating LazyVim.
 
-### cmd backend <Tab> not working
+### cmd backend Tab key not working
 
 As Described in this [issue](https://github.com/folke/noice.nvim/issues/958), 
 tab key only works before cmp plugin initialized. A temporary solution 
