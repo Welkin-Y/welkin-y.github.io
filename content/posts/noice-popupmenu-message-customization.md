@@ -32,7 +32,7 @@ require("nofity").setup({
 However, it only places the message at right bottom corner, and Lazyvim
 at the time of writing this post has switched to the snacks.nvim backend.
 
-In `~/.local/share/nvim/lazy/Lazyvim/lua/lazyvim/plugin/ui.lua`, add in snacks setup:
+In `~/.config/nvim/lua/plugins/ui.lua`, add snack notifier options:
 
 ```lua
 return {
@@ -40,9 +40,6 @@ return {
   {
     "folke/snacks.nvim",
     opts = {
-      dashboard = {
-        -- Original configurations
-      },
       -- Add opts for snack.notifier
       notifier = {
         top_down = false,
