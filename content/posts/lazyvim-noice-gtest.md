@@ -6,13 +6,14 @@ draft: false
 
 ## Config for noice
 
-In `~/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/ui.lua`  
-add the following lines:
+In nvim config foler, by default `~/.config/nvim/lua/plugins`, 
+create config file `ui.lua`, and add the following lines:
 
 ```lua
+return {
+  -- other ui configs
   {
     "folke/noice.nvim",
-    event = "VeryLazy",
     opts = {
       cmdline = {
         view = "cmdline",
@@ -20,10 +21,9 @@ add the following lines:
       popupmenu = {
         backend = "cmp",
       },
-      lsp = {
-        --- original configuaration goes here
-      }
-  }
+    }
+  },
+}
 ```
 
 Because I am a traditional person used to vim command line at the bottom.  
