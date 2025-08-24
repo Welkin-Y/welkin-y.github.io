@@ -1,1 +1,20 @@
-public
+# Ignore everything
+*
+
+# Un-ignore specific files in root
+!/.gitignore
+!/hugo.toml
+!/deploy.sh
+!/README.md
+!/.gitmodules
+
+# Un-ignore specific directories
+!/archetypes/
+!/content/
+!/themes/
+!/.github/
+
+# Ignore Hugo generated files
+/public
+/resources
+.hugo_build.lock
