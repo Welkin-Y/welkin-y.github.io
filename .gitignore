@@ -10,9 +10,13 @@
 
 # Un-ignore specific directories
 !/archetypes/
+!/archetypes/**
 !/content/
+!/content/**
 !/themes/
+!/themes/**
 !/.github/
+!/.github/**
 
 # Ignore Hugo generated files
 /public
